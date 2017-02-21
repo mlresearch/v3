@@ -1,0 +1,14 @@
+title: PMLR Volume 3
+description: > # this means to ignore newlines until "baseurl:"
+  Causation and Prediction Challenge (WCCI 2008)
+baseurl: "/v3"
+url: "http://proceedings.mlr.press"
+logo: causality.jpg
+volume: 3
+date: 2008-12-31
+twitter_username: mlresearch
+github_username:  mlresearch
+
+# Build settings
+markdown: kramdown
+theme: minima

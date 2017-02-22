@@ -1,141 +1,57 @@
 ---
 layout: default
-title: "JMLR W&amp;CP: Volume 3: Causation and Prediction Challenge (WCCI 2008)"
----                                     
-<div id="content">      
-  <table cellpadding="2" cellspacing="2" border="0" width="100%">
-    <tbody>
-      <tr>
-        <td valign="top">                                   
-	  <h1>JMLR Workshop and Conference Proceedings: Volume 3</h1>
-	  <h2>Causation and Prediction Challenge at WCCI 2008
-	    <br>June 1-6, 2008, Hong Kong</h2>
-          <b><br>
-	    Editors: Isabelle Guyon, Constantin Aliferis, Greg Cooper, Andr&eacute; 
-	    Elisseeff, J.-P. Pellet,&nbsp; P. Spirtes, and A. Statnikov.</b><br>
-        </td>
-        <td valign="top"><a
-			    href="http://www.causality.inf.ethz.ch/challenge.php?page=dissemination"><img
-													src="causality.jpg" alt="Causality workbench logo" width="180"
-													height="135" hspace="0" vspace="0" border="1">
-            <br>
-            <br>
-          </a><br>
-        </td>
-      </tr>
-      
-    </tbody>     
-  </table>
+---
+
+<div id="content" class="home">
+
+  <h1>Proceedings of Machine Learning Research</h1>
+  <h2>Volume {{ site.volume }}: {{ site.conference }} {{ site.start | date: "%B %-d" }} to {{ site.end | date: "%B %-d, %Y" }}, {{ site.address }}</h2>
+
   
-  <table cellpadding="0" cellspacing="0" border="1" width="100%">
-    <tbody>
-      <tr>
-        <td valign="top" bgcolor="#ffffcc"><a
-					      href="JMLRWCP_V3_supplemental.html"><b>Supplemental  material
-	      (datasets, code)</b></a><br>
-        </td>
-      </tr>
-      
-    </tbody>    
-  </table>
+  <p><strong>Editors:
+      {% assign lastone = site.editor | last %}
+      {% for person in site.editor %}
+      {% include listperson.html %}
+      {% endfor %}
+  </strong></p>
+
+  <div id="sectionnav">
+    {% if site.sections %}
+    <p>Contents:</p>
+    <ul>
+      {% for section in site.sections %}
+      <li><a href="#{{ section.name }}">{{ section.title }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <label for="search-authors">Filter Authors:</label>
+    <input type="search" name="filter-authors" id="search-authors" value />
+    <label for="search-titles">Filter Titles:</label>
+    <input type="search" name="filter-titles" id="search-titles" value />
+  </div>
+  {% if site.sections %}
+  {% for section in site.sections %}
+  <h3 id="{{ section.name }}">{{ section.title }}</h3>
+  {% assign sorted = (site.posts | sort: 'firstpage') %}
+  {% for post in sorted %}
+    {% if section.name == post.section %}
+    {% include listpaper.html %}
+    {% endif %}
+    {% endfor %}
+  </dl>
+  {% endfor %}
+  {% endif %}
+  <dl>
+  {% assign sorted = (site.posts | sort: 'firstpage') %}
+  {% for post in sorted %}
+  {% unless post.section %} 
+  {% include listpaper.html %}
+  {% endunless %}
+  {% endfor %}
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
   
-  <p>      
-    <table cellspacing="0" cellpadding="4">
-      <tbody>
-        <tr>
-          <td>                                   
-	    <dl>
-              <dt>Design and Analysis of the Causation and Prediction Challenge
-              </dt>
-              <dd><i><b>Isabelle Guyon, Constantin Aliferis, Greg Cooper, Andr&eacute; 
-		    Elisseeff, Jean-Philippe Pellet,&nbsp; Peter Spirtes, and Alexander Statnikov</b></i>; 
-		3:1-33, 2008.<br>
-		<a href="guyon08a.html">[abs]</a> <a target="_blank"
-						     href="guyon08a/guyon08a.pdf">[pdf]</a> </dd>
-	    </dl>
-            
-	    <p></p>
-          </td>
-        </tr>
-      <tr>
-           <td>                                   
-      <dl>
-        <dt>A Strategy for Making Predictions Under Manipulation<font
- color="#ff6666"> </font></dt>
-        <dd><i><b>Laura E. Brown and Ioannis Tsamardinos</b></i>; 3:35-52, 
-  2008. <font color="#ff6666"><br>
-               <a href="brown08a.html">[abs]</a> <a
- target="_blank" href="brown08a/brown08a.pdf">[pdf]</a></font>  </dd>
-      </dl>
-                                       
-      <p></p>
-           </td>
-         </tr>
-       <tr>
-           <td>                                   
-      <dl>
-        <dt>Feature Ranking Using Linear SVM<font color="#ff6666"> </font></dt>
-        <dd><i><b>Yin-Wen Chang and Chih-Jen Lin</b></i>; 3:53-64,  2008.<font
- color="#ff6666"><br>
-               <a href="chang08a.html">[abs]</a> <a
- target="_blank" href="chang08a/chang08a.pdf">[pdf]</a></font>  </dd>
-      </dl>
-                                       
-      <p></p>
-           </td>
-         </tr>
-      <tr>
-           <td>                                   
-      <dl>
-        <dt>Random Sets Approach and its Applications<font
- color="#ff6666"> </font></dt>
-        <dd><i><b>Vladimir Nikulin</b></i>; 3:65-76,  2008.<font
- color="#ff6666"><br>
-               <a href="nikulin08a.html">[abs]</a> <a
- target="_blank" href="nikulin08a/nikulin08a.pdf">[pdf]</a></font>  </dd>
-      </dl>
-                                       
-      <p></p>
-           </td>
-         </tr>
-         <tr>
-           <td valign="top">                                   
-      <dl>
-        <dt>Bernoulli Mixture Models for Markov Blanket Filtering and Classification<font
- color="#ff6666">     </font></dt>
-        <dd><b><i>Mehreen Saeed</i></b>; 3:77:91,  2008.<font
- color="#ff6666"><br>
-          <a href="saeed08a.html">[abs]</a>     <a
- target="_blank" href="saeed08a/saeed08a.pdf">[pdf]</a></font>  </dd>
-      </dl>
-           </td>
-         </tr>
-         <tr>
-           <td valign="top">                                   
-      <dl>
-        <dt>Partial orientation and local structural learning of causal networks 
-  for prediction<font color="#ff6666">     </font></dt>
-        <dd><i><b>Jianxin Yin, You Zhou, Changzhang Wang, Ping He, Cheng Zheng,
-and Zhi Geng</b></i>; 3:93-105,  2008.<font color="#ff6666"><br>
-          <a href="yin08a.html">[abs]</a>     <a target="_blank"
- href="yin08a/yin08a.pdf">[pdf]</a></font>  </dd>
-      </dl>
-           </td>
-         </tr>
-        <tr>
-          <td valign="top">                            
-      <dl>
-        <dt>Causal and Non-Causal Feature Selection for Ridge Regression<font
- color="#ff6666">     </font></dt>
-        <dd><i><b>Gavin C. Cawley</b></i>; 3:107-128,  2009.<font
- color="#ff6666"><br>
-          <a href="cawley09a.html">[abs]</a>&nbsp;</font><font
- color="#3333ff"><a href="cawley09a/cawley09a.pdf">[pdf]</a></font></dd>
-      </dl>
-          </td>
-        </tr>
-                     
-  </tbody>     
-</table>
-</p>
 </div>
+<!-- Search Widget -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script src="../js/search.js"></script>

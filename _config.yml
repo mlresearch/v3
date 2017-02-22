@@ -14,13 +14,13 @@ comments: true
 shortname: CPC
 bibsource: http://jmlr.csail.mit.edu/proceedings/
 layout: proceedings
-key: GuyonIACCGEPJSPSA2008
+id: GuyonIACCGEPJSPSA2008
 month: 0
 abstract: 
 origpdf: 
 pdf: "./GuyonIACCGEPJSPSA2008/GuyonIACCGEPJSPSA2008.pdf"
 sections: 
-editors:
+editor:
 - given: Isabelle
   family: Guyon
 - given: Constantin

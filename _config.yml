@@ -1,14 +1,47 @@
-title: PMLR Volume 3
-description: > # this means to ignore newlines until "baseurl:"
-  Causation and Prediction Challenge (WCCI 2008)
-baseurl: "/v3"
-url: "http://proceedings.mlr.press"
-logo: causality.jpg
+# Site settings
+# Auto generated from v3.bib
+---
+booktitle: Causation and Prediction Challenge (WCCI 2008)
+series: Journal of Machine Learning Research - Proceedings Track
 volume: 3
-date: 2008-12-31
+year: '2008'
+start: 2008-06-03
+end: 2008-06-04
+published: 2008-12-31
+address: Hong Kong
+conference_url: http://clopinet.com/isabelle/Projects/WCCI2008/
+comments: true
+shortname: CPC
+bibsource: http://jmlr.csail.mit.edu/proceedings/
+layout: proceedings
+key: GuyonIACCGEPJSPSA2008
+month: 0
+abstract: 
+origpdf: 
+pdf: "./GuyonIACCGEPJSPSA2008/GuyonIACCGEPJSPSA2008.pdf"
+sections: 
+editors:
+- given: Isabelle
+  family: Guyon
+- given: Constantin
+  family: Aliferis
+- given: Greg
+  family: Cooper
+- given: Andr\'{e}
+  family: Elisseeff
+- given: J.-P.
+  family: Pellet
+- given: "  P."
+  family: Spirtes
+- given: A.
+  family: Statnikov.
+title: Causation and Prediction Challenge (WCCI 2008)
+conference: Causation and Prediction Challenge (WCCI 2008)
+email: ''
+description: Causation and Prediction Challenge (WCCI 2008), Hong Kong
+url: http://proceedings.mlr.press
+baseurl: "/v3"
 twitter_username: mlresearch
-github_username:  mlresearch
-
-# Build settings
+github_username: mlresearch
 markdown: kramdown
-theme: minima
+permalink: "/:title.html"

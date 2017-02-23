@@ -44,7 +44,7 @@ markdown: kramdown
 permalink: "/:title.html"
 github:
   edit: true
-  repository: mlresearch
+  repository: v3
 conference:
   name: 
   url: http://clopinet.com/isabelle/Projects/WCCI2008/

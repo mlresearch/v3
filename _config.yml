@@ -49,7 +49,9 @@ conference:
   name: 
   url: http://clopinet.com/isabelle/Projects/WCCI2008/
   location: Hong Kong
-  dates: !ruby/object:Enumerator {}
+  dates:
+  - 2008-06-03
+  - 2008-06-04
 analytics:
   google:
     tracking_id: UA-92432422-1

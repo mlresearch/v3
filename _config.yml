@@ -8,8 +8,6 @@ year: '2008'
 start: 2008-06-03
 end: 2008-06-04
 published: 2008-12-31
-address: Hong Kong
-conference_url: http://clopinet.com/isabelle/Projects/WCCI2008/
 comments: 'no'
 shortname: CPC
 bibsource: http://jmlr.csail.mit.edu/proceedings/
@@ -36,7 +34,6 @@ editor:
 - given: A.
   family: Statnikov.
 title: Causation and Prediction Challenge (WCCI 2008)
-conference: Causation and Prediction Challenge (WCCI 2008)
 email: ''
 description: Causation and Prediction Challenge (WCCI 2008), Hong Kong
 url: http://proceedings.mlr.press
@@ -45,8 +42,13 @@ twitter_username: mlresearch
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"
-gitub:
+github:
   edit: true
+  repository: mlresearch
+conference:
+  name: 
+  url: http://clopinet.com/isabelle/Projects/WCCI2008/
+  location: Hong Kong
 analytics:
   google:
     tracking_id: UA-92432422-1

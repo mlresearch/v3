@@ -14,7 +14,7 @@ bibsource: http://jmlr.csail.mit.edu/proceedings/
 layout: proceedings
 id: GuyonIACCGEPJSPSA2008
 month: 0
-abstract: 
+abstract: ''
 origpdf: 
 pdf: http://proceedings.pmlr.press/GuyonIACCGEPJSPSA2008/GuyonIACCGEPJSPSA2008.pdf
 sections: 
@@ -25,7 +25,7 @@ editor:
   family: Aliferis
 - given: Greg
   family: Cooper
-- given: Andr\'{e}
+- given: André
   family: Elisseeff
 - given: J.-P.
   family: Pellet

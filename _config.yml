@@ -1,5 +1,6 @@
 ---
-booktitle: Causation and Prediction Challenge (WCCI 2008)
+booktitle: Proceedings of the Workshop on the Causation and Prediction Challenge at
+  WCCI 2008
 series: Proceedings of Machine Learning Research
 volume: 3
 year: '2008'
@@ -29,9 +30,11 @@ editor:
   family: Spirtes
 - given: A.
   family: Statnikov.
-title: Causation and Prediction Challenge (WCCI 2008)
+title: Proceedings of the Workshop on the Causation and Prediction Challenge at WCCI
+  2008
 email: ''
-description: Causation and Prediction Challenge (WCCI 2008), Hong Kong
+description: Proceedings of the Workshop on the Causation and Prediction Challenge
+  at WCCI 2008, Hong Kong
 url: http://proceedings.mlr.press
 baseurl: "/v3"
 twitter_username: mlresearch
@@ -42,7 +45,7 @@ github:
   edit: true
   repository: v3
 conference:
-  name: Causation and Prediction Challenge (WCCI 2008)
+  name: Causation and Prediction Challenge
   url: http://clopinet.com/isabelle/Projects/WCCI2008/
   location: Hong Kong
   dates:

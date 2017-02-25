@@ -14,6 +14,8 @@ layout: proceedings
 id: GuyonIACCGEPJSPSA2008
 month: 0
 abstract: ''
+tex_title: 
+title: Proceedings of Machine Learning Research
 sections: 
 editor:
 - given: Isabelle
@@ -30,7 +32,6 @@ editor:
   family: Spirtes
 - given: A.
   family: Statnikov.
-title: Proceedings of Machine Learning Research
 description: |
   Proceedings of the Workshop on the Causation and Prediction Challenge at WCCI 2008
     Held in Hong Kong on 3-04 June 2008

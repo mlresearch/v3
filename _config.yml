@@ -30,11 +30,24 @@ editor:
   family: Spirtes
 - given: A.
   family: Statnikov.
-title: Proceedings of the Workshop on the Causation and Prediction Challenge at WCCI
-  2008
-email: ''
-description: Proceedings of the Workshop on the Causation and Prediction Challenge
-  at WCCI 2008, Hong Kong
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the Workshop on the Causation and Prediction Challenge at WCCI 2008
+    Held in Hong Kong on 3-04 June 2008
+
+  Published as Volume 3 by the Proceedings of Machine Learning Research on 31 December 2008.
+
+  Volume Edited by:
+    Isabelle Guyon
+    Constantin Aliferis
+    Greg Cooper
+    André Elisseeff
+    J.-P. Pellet
+    P. Spirtes
+    A. Statnikov.
+
+  Series Editors:
+    Neil D. Lawrence
 url: http://proceedings.mlr.press
 baseurl: "/v3"
 twitter_username: mlresearch
@@ -44,6 +57,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v3
+email: ''
 conference:
   name: Causation and Prediction Challenge
   url: http://clopinet.com/isabelle/Projects/WCCI2008/

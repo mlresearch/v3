@@ -34,7 +34,7 @@ editor:
   family: Statnikov.
 description: |
   Proceedings of the Workshop on the Causation and Prediction Challenge at WCCI 2008
-    Held in Hong Kong on 3-04 June 2008
+    Held in Hong Kong on 03-04 June 2008
 
   Published as Volume 3 by the Proceedings of Machine Learning Research on 31 December 2008.
 
@@ -49,7 +49,7 @@ description: |
 
   Series Editors:
     Neil D. Lawrence
-date_str: 3--04 Jun
+date_str: 03--04 Jun
 url: http://proceedings.mlr.press
 baseurl: "/v3"
 twitter_username: mlresearch

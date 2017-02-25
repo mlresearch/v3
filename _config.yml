@@ -49,6 +49,7 @@ description: |
 
   Series Editors:
     Neil D. Lawrence
+date_str: 3--04 Jun
 url: http://proceedings.mlr.press
 baseurl: "/v3"
 twitter_username: mlresearch
@@ -58,6 +59,7 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v3
+bibtex_copy: true
 email: ''
 conference:
   name: Causation and Prediction Challenge

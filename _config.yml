@@ -7,7 +7,7 @@ year: '2008'
 start: 2008-06-03
 end: 2008-06-04
 published: 2008-12-31
-comments: false
+comments: 'no'
 shortname: CPC
 bibsource: http://jmlr.csail.mit.edu/proceedings/
 layout: proceedings
@@ -16,7 +16,7 @@ month: 0
 abstract: ''
 tex_title: 
 title: Proceedings of Machine Learning Research
-sections: 
+cycles: false
 editor:
 - given: Isabelle
   family: Guyon
@@ -59,9 +59,12 @@ permalink: "/:title.html"
 github:
   edit: true
   repository: v3
-bibtex_copy: true
-endnote_copy: true
-apa_copy: true
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
 email: ''
 conference:
   name: Causation and Prediction Challenge

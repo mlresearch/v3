@@ -50,7 +50,7 @@ description: |
 date_str: 03--04 Jun
 url: http://proceedings.mlr.press
 baseurl: "/v3"
-twitter_username: mlresearch
+twitter_username: MLResearchPress
 github_username: mlresearch
 markdown: kramdown
 permalink: "/:title.html"

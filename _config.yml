@@ -23,12 +23,12 @@ editor:
   family: Cooper
 - given: André
   family: Elisseeff
-- given: J.-P.
+- given: Jean-Philippe
   family: Pellet
-- given: P.
+- given: Peter
   family: Spirtes
-- given: A.
-  family: Statnikov.
+- given: Alexander
+  family: Statnikov
 title: Proceedings of Machine Learning Research
 description: |
   Proceedings of the Workshop on the Causation and Prediction Challenge at WCCI 2008
@@ -41,9 +41,9 @@ description: |
     Constantin Aliferis
     Greg Cooper
     André Elisseeff
-    J.-P. Pellet
-    P. Spirtes
-    A. Statnikov.
+    Jean-Philippe Pellet
+    Peter Spirtes
+    Alexander Statnikov
 
   Series Editors:
     Neil D. Lawrence

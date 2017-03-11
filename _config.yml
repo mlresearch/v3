@@ -13,9 +13,6 @@ bibsource: http://jmlr.csail.mit.edu/proceedings/
 layout: proceedings
 id: GuyonIACCGEPJSPSA2008
 month: 0
-abstract: ''
-tex_title: 
-title: Proceedings of Machine Learning Research
 cycles: false
 editor:
 - given: Isabelle
@@ -32,6 +29,7 @@ editor:
   family: Spirtes
 - given: A.
   family: Statnikov.
+title: Proceedings of Machine Learning Research
 description: |
   Proceedings of the Workshop on the Causation and Prediction Challenge at WCCI 2008
     Held in Hong Kong on 03-04 June 2008
@@ -64,6 +62,7 @@ display:
     bibtex: true
     endnote: true
     apa: true
+    ris: true
   comments: false
 email: ''
 conference:
@@ -78,3 +77,4 @@ analytics:
     tracking_id: UA-92432422-1
 # Site settings
 # Auto generated from v3.bib
+---

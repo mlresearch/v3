@@ -2,12 +2,13 @@
 booktitle: Proceedings of the Workshop on the Causation and Prediction Challenge at
   WCCI 2008
 series: Proceedings of Machine Learning Research
+issn: 1938-7228
 volume: 3
 year: '2008'
 start: 2008-06-03
 end: 2008-06-04
 published: 2008-12-31
-comments: 'no'
+comments: false
 plugins:
   - jekyll-remote-theme
 remote_theme: lawrennd/proceedings

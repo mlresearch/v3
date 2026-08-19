@@ -56,7 +56,7 @@ description: |
   Series Editors:
     Neil D. Lawrence
 date_str: 03--04 Jun
-url: http://proceedings.mlr.press
+url: https://proceedings.mlr.press
 author:
   name: PMLR
 baseurl: "/v3"
